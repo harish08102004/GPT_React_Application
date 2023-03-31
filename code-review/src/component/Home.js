@@ -1,6 +1,5 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
-import { Editor } from '@tinymce/tinymce-react';
+import { useForm } from 'react-hook-form';gi 
 
 function ReportGenerator() {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -13,10 +12,6 @@ function ReportGenerator() {
     <form onSubmit={handleSubmit(onSubmit)}>
       <label>
         Sentence:
-        <Editor
-          apiKey=""
-          {...register("sentence", { required: true })}
-        />
         {errors.sentence && <span>This field is required.</span>}
       </label>
       <button type="submit">Generate Report</button>
