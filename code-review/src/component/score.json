@@ -1,0 +1,42 @@
+{
+    "Clarity": {
+      "description": "Clear sentences that effectively communicate the intended message can receive a higher score. Points can be deducted for sentences that are unclear or difficult to understand.",
+      "points": {
+        "low": "0-3",
+        "medium": "4-7",    
+        "high": "8-10"
+      }
+    },
+    "Conciseness": {
+      "description": "Sentences that are concise and to the point can receive a higher score. Points can be deducted for sentences that are too wordy or contain unnecessary phrases.",
+      "points": {
+        "low": "0-3",
+        "medium": "4-7",
+        "high": "8-10"
+      }
+    },
+    "Coherence": {
+      "description": "Sentences that are well-organized and flow logically can receive a higher score. Points can be deducted for sentences that are disorganized or lack coherence.",
+      "points": {
+        "low": "0-3",
+        "medium": "4-7",
+        "high": "8-10"
+      }
+    },
+    "Variety": {
+      "description": "Sentences that have variety in structure and length can receive a higher score. Points can be deducted for sentences that are too repetitive or lack variety.",
+      "points": {
+        "low": "0-3",
+        "medium": "4-7",
+        "high": "8-10"
+      }
+    },
+    "Correctness": {
+      "description": "Sentences that are grammatically correct and free of spelling errors can receive a higher score. Points can be deducted for sentences that contain errors in grammar or spelling.",
+      "points": {
+        "low": "0-3",
+        "medium": "4-7",
+        "high": "8-10"
+      }
+    }
+  }
