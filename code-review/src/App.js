@@ -1,9 +1,9 @@
 import './App.css';
-import ReportGenerator from './component/Home';
+import ToneAnalyzer from './component/Home';
 function App() {
   return (
     <div className="App">
-    <ReportGenerator/>
+    <ToneAnalyzer/>
     </div>
   );
 }
